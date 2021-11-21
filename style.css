@@ -1,5 +1,47 @@
-@include media-breakpoint-up(md) {
-  img {
-    width: 50%;
-  }
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.img-overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.img-buttons-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(78, 93, 108, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img-overlay:hover .img-buttons-layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img-buttons {
+  transition: 0.2s;
+  transform: translateY(1em);
+}
+
+.img-overlay:hover .img-buttons-layer {
+  transform: translateY(0);
 }
