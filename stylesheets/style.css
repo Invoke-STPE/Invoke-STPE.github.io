@@ -45,3 +45,9 @@ p a {
 .img-overlay:hover .img-buttons-layer {
   transform: translateY(0);
 }
+
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: fill;
+}
