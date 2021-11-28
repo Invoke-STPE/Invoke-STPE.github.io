@@ -8,6 +8,10 @@ p a {
   color: inherit;
 }
 
+a {
+  color: white;
+}
+
 .img-overlay {
   position: relative;
   height: 100%;
@@ -50,4 +54,18 @@ p a {
   width: 100%;
   height: 40vh;
   object-fit: fill;
+}
+
+/* Under construction sign!  */
+.product-holder {
+  position: relative;
+  display: block;
+}
+
+.plus-image {
+  left: 2rem;
+
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -25px;
 }

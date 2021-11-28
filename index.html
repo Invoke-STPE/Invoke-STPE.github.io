@@ -24,71 +24,20 @@
       </header>
       <!-- Quick Few words -->
       <section>
-        <div class="container p-5">
-          <div class="d-md-flex align-items-center justify-content-between">
-            <div class="">
-              <img
-                src="./images/profile_pic.svg"
-                class="img-fluid"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="p-4">
-              <h1 class="display-4">
-                Steven <span class="text-warning">Pedersen</span>
-              </h1>
-              <p class="lead">
-                Hello, welcome to my little part of the internet, this site is
-                intented as a
-                <span class="text-warning">portifolio</span> website, and to
-                showcase my <span class="text-warning">projects</span>.
-              </p>
-              <p class="lead">
-                I am currently studying computer science at
-                <span class="text-warning">Zealand Business College.</span> If
-                you wanna know more about me, feel free to read my
-                <a href=""><span class="text-info">CV</span></a> or take a look
-                through of my current/completed projects below.
-              </p>
-            </div>
-          </div>
-        </div>
+        <intro-component></intro-component>
       </section>
       <!-- Projects -->
       <section class="pt-4 bg-primary">
         <div class="container">
-          <h1 class="text-center display-4 pb-2">Projects</h1>
-          <div v-if="showMore" class="row pb-2">
-            <div
-              class="col-md-4 d-md-flex align-items-stretch pb-3"
-              v-for="project in projects"
-              v-bind:key="project.id"
-            >
-              <project-component v-bind:project="project"></project-component>
-            </div>
-          </div>
-          <div v-else class="row pb-2">
-            <div
-              class="col-md-4 d-md-flex align-items-stretch pb-3"
-              v-for="project in previewProjects"
-              v-bind:key="project.id"
-            >
-              <project-component v-bind:project="project"></project-component>
-            </div>
-          </div>
-          <div class="text-center pb-5">
-            <button
-              type="button"
-              @click="toggleShowMore()"
-              class="btn btn-outline-secondary"
-            >
-              <span v-if="showMore">Show Less...</span>
-              <span v-else>Show More...</span>
-            </button>
-          </div>
+          <projectpage-component
+            v-model:projects="projects"
+          ></projectpage-component>
         </div>
       </section>
+
+      <footer>
+        <footer-component></footer-component>
+      </footer>
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -98,9 +47,17 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/vue@next"></script>
-    <script src="https://unpkg.com/vue"></script>
-
     <script src="./data/projectSeed.js"></script>
     <script src="main.js"></script>
+    <!-- Vue Components -->
+    <script src="./Components/projectPageComponent.js"></script>
+    <script src="./Components/introComponent.js"></script>
+    <script src="./Components/navigationComponent.js"></script>
+    <script src="./Components/timelineComponent.js"></script>
+    <script src="./Components/footerComponent.js"></script>
+
+    <script>
+      const mountedApp = app.mount("#app");
+    </script>
   </body>
 </html>

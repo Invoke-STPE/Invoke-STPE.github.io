@@ -8,6 +8,7 @@ window.Seed = (function () {
       image: "images/undraw_under_construction.svg",
       gitHub: "https://github.com/Invoke-STPE/RestAPIRecords",
       livePreview: "https://www.google.com",
+      construction: true,
     },
   ];
 
