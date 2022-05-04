@@ -8,8 +8,8 @@ app.component("intro-component", {
                         <h4 class="text-800">Steven <span class="text-warning">Pedersen</span></h1>
                         <h1 class="fw-semi-bold lh-sm fs-4 fs-lg-5 fs-xl-6 text-white">Computer Science</h1>
                         <p class="mb-5 fs-5 text-800">Hello, welcome to my <span class="text-warning">portifolio</span>.<br />
-                          Soon to be <span class="text-warning">Computer Science graduate</span>, with experience working across <span class="text-warning">full-stack development</span>
-                          Eager to learn, interested in building web apps.    
+                          Soon to be <span class="text-warning">Computer Science graduate</span>, with experience working across full-stack development
+                          <span class="text-warning">Eager to learn</span>, interested in building web apps.    
                         </p>
                     <div class="d-grid gap-2 d-lg-block">
                       <a class="btn btn-primary btn-lg me-2" href="#!" role="button">My Linkedin Profile</a>
