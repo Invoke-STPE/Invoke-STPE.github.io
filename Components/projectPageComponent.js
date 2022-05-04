@@ -33,11 +33,8 @@ app.component("project-component", {
       <p class="card-text">{{ project.description }}</p>
     </div>
     <div class="btn-group w-100">
-      <a
-        class="btn btn-primary mt-auto btn-block"
-        v-bind:href="project.livePreview"
-        >Website</a
-      >
+
+    
       <a class="btn btn-warning mt-auto btn-block" v-bind:href="project.gitHub"
         >GitHub</a
       >
