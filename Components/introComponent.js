@@ -21,7 +21,7 @@ app.component("intro-component", {
                 </div>
                 <div class="col-md-6 order-lg-2  order-sm-1 order-0">
                   <div class="card card-span h-100 text-white bg-dark border-0">
-                      <img class="card-img h-100 " src="Images/profile_pic.svg" alt="...">
+                      <img class="card-img h-100 " src="images/profile_pic.svg" alt="...">
                   </div>
               </div>
           
