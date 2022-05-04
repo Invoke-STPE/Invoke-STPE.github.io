@@ -60,6 +60,16 @@ window.Seed = (function () {
       livePreview: "#",
       construction: false,
     },
+    {
+      id: 7,
+      title: "Mandatory PHP Assigment",
+      description:
+        "A mandatory PHP Assigment for my self-chosen Open Source and Web Development subject.",
+      image: "images/undraw_mandatoryphp.svg",
+      gitHub: "https://github.com/Invoke-STPE/Mandatory-PHP-Steven",
+      livePreview: "#",
+      construction: false,
+    },
   ];
 
   return { projects: projects };
