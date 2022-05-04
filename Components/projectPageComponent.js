@@ -3,7 +3,7 @@ app.component("projectpage-component", {
   <h1 class="text-center display-4 pb-2 fw-bold">Projects</h1>
     <div class="row pb-2">
       <div
-        class="col-md-4 d-md-flex align-items-stretch pb-3"
+        class="col-md-4 d-md-flex align-items-stretch pb-3"      
         v-for="project in projects"
         v-bind:key="project.id"
       >
