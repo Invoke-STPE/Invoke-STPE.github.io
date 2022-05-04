@@ -1,6 +1,6 @@
 app.component("intro-component", {
   template: /* html */ `
-  <div class="container py-5">
+  <div class="container py-5 bg-dark text-white">
     <div class="d-md-flex align-items-center justify-content-between">
       <div class="">
         <img
