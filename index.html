@@ -1,53 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>       
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./stylesheets/style.css" />
-    <title>Invoke-STPE's Portfolio</title>              
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+
+    <title>Invoke-STPE's Portfolio</title>
   </head>
   <body>
-    <div id="app">
-      <!-- Navigation bar -->
-      <navigation-component></navigation-component>
-      <!-- Quick Few words -->
-      <intro-component></intro-component>
-      <!-- Projects -->
-      <section class="pt-4">
-        <div class="container">
-          <projectpage-component
-            v-model:projects="projects"
-          ></projectpage-component>
+      <header>
+        <div class="navbar-collapse justify-content-md-center collapse bg-dark" id="site-navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="#section-home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+            </ul>
         </div>
-      </section>
-
-      <footer>
-        <footer-component></footer-component>
-      </footer>
-    </div>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/vue@next"></script>
-    <script src="./data/projectSeed.js"></script>
-    <script src="main.js"></script>
-    <!-- Vue Components -->
-    <script src="./Components/projectPageComponent.js"></script>
-    <script src="./Components/introComponent.js"></script>
-    <script src="./Components/navigationComponent.js"></script>
-    <script src="./Components/timelineComponent.js"></script>
-    <script src="./Components/footerComponent.js"></script>
-
-    <script>
-      const mountedApp = app.mount("#app");
-    </script>
+      </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
