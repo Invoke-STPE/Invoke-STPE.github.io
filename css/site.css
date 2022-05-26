@@ -63,7 +63,9 @@ li {
     background: #fff;
 } */
 
-
+.bg-dark {
+    background-color: #222;
+}
 .site-navbar.bg-light {
     background: transparent;
 }
