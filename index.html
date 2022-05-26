@@ -1,53 +1,247 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>       
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./stylesheets/style.css" />
-    <title>Invoke-STPE's Portfolio</title>              
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/site.css">
+
+    <title>Invoke-STPE's Portfolio</title>
   </head>
   <body>
-    <div id="app">
-      <!-- Navigation bar -->
-      <navigation-component></navigation-component>
-      <!-- Quick Few words -->
-      <intro-component></intro-component>
-      <!-- Projects -->
-      <section class="pt-4">
-        <div class="container">
-          <projectpage-component
-            v-model:projects="projects"
-          ></projectpage-component>
-        </div>
-      </section>
+      <header>
+        <nav class="navbar navbar-dark navbar-expand-lg site-navbar fixed-top" id="pb-navbar">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+      
+            <div class="collapse navbar-collapse justify-content-md-center" id="main-navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="#section-home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-      <footer>
-        <footer-component></footer-component>
-      </footer>
-    </div>
+      <main>
+        <section class="home_banner_area">
+          <div class="container box_1620">
+            <div class="banner_inner d-flex align-items-center">
+              <div class="banner_content">
+                <div class="media">
+                    <div class="d-flex">
+                      <img src="images/close-up.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="personal_text">
+                        <h6>Welcome, I am </h6>
+                        <h3>Steven Pedersen</h3>
+                        <h4>Computer science <span class="color-bold">Graduate</span> Jan. 2023</h4>
+                        <p>Soon to be Computer Science graduate, with experience working across full-stack development Eager to learn!</p>
+                        <ul class="list basic_info">
+                          <li><a href="#"><i class="bi bi-telephone"></i> +45 53 61 95 30</a></li>
+                          <li><a href="#"><i class="bi bi-envelope"></i>StevenPedersen94@gmail.com</a></li>
+                          <li><a href="https://github.com/Invoke-STPE"><i class="bi bi-github"></i>GitHub</a></li>
+                          <li><a href="https://www.linkedin.com/in/steven-pedersen-664118202/"><i class="bi bi-linkedin"></i>Linkedin</a></li>
+                        </ul>
+                        <ul class="list personal_social">
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+       </div>
+     </div>
+         </div>
+        </section>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/vue@next"></script>
-    <script src="./data/projectSeed.js"></script>
-    <script src="main.js"></script>
-    <!-- Vue Components -->
-    <script src="./Components/projectPageComponent.js"></script>
-    <script src="./Components/introComponent.js"></script>
-    <script src="./Components/navigationComponent.js"></script>
-    <script src="./Components/timelineComponent.js"></script>
-    <script src="./Components/footerComponent.js"></script>
-
+        <section class="site-section p-120" id="section-portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-heading text-center col-md-12">
+                <h2>Featured <strong class="color-bold">Portfolio</strong></h2>
+              </div>
+            </div> 
+            <div class="filters-content">
+              <div class="row">
+                <div class="single-portfolio col-sm-4">
+                  <div class="relative">
+                    <div class="thumb">
+                      <div class="overlay overlay-bg"></div>
+                      <img class="image img-fluid" src="images/undraw_moodmedia.svg" alt="">
+                    </div>
+                    <a href="images/p1.jpg" class="img-pop-up">  
+                      <div class="middle">
+                        <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                      </div>
+                    </a>                                  
+                  </div>
+                  <div class="p-inner text-center">
+                    <h4 class="fs-2">MoodMedia</h4>
+                    <div class="fs-5">MoodMedia is a web application that is design to play music based on the "weather"</div>
+                  </div>                                         
+                </div>
+                <div class="single-portfolio col-sm-4">
+                  <div class="relative">
+                    <div class="thumb">
+                      <div class="overlay overlay-bg"></div>
+                      <img class="image img-fluid" src="images/undraw_moodmedia.svg" alt="">
+                    </div>
+                    <a href="images/p1.jpg" class="img-pop-up">  
+                      <div class="middle">
+                        <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                      </div>
+                    </a>                                  
+                  </div>
+                  <div class="p-inner text-center">
+                    <h4 class="fs-2">MoodMedia</h4>
+                    <div class="fs-5">MoodMedia is a web application that is design to play music based on the "weather"</div>
+                  </div>                                         
+                </div>
+                <div class="single-portfolio col-sm-4">
+                  <div class="relative">
+                    <div class="thumb">
+                      <div class="overlay overlay-bg"></div>
+                      <img class="image img-fluid" src="images/undraw_moodmedia.svg" alt="">
+                    </div>
+                    <a href="images/p1.jpg" class="img-pop-up">  
+                      <div class="middle">
+                        <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                      </div>
+                    </a>                                  
+                  </div>
+                  <div class="p-inner text-center">
+                    <h4 class="fs-2">MoodMedia</h4>
+                    <div class="fs-5">MoodMedia is a web application that is design to play music based on the "weather"</div>
+                  </div>                                         
+                </div>
+                <div class="single-portfolio col-sm-4">
+                  <div class="relative">
+                    <div class="thumb">
+                      <div class="overlay overlay-bg"></div>
+                      <img class="image img-fluid" src="images/undraw_moodmedia.svg" alt="">
+                    </div>
+                    <a href="images/p1.jpg" class="img-pop-up">  
+                      <div class="middle">
+                        <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                      </div>
+                    </a>                                  
+                  </div>
+                  <div class="p-inner text-center">
+                    <h4 class="fs-2">MoodMedia</h4>
+                    <div class="fs-5">MoodMedia is a web application that is design to play music based on the "weather"</div>
+                  </div>                                         
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <section class="site-section " id="section-resume">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 mb-5">
+                  <div class="section-heading text-center">
+                    <h2>My <strong class="color-bold">Resume</strong></h2>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h2 class="mb-5">Education</h2>
+                  <div class="resume-item mb-4">
+                    <span class="date"><span class="bi bi-calendar"></span> March 2013 - Present</span>
+                    <h3>Masteral in Information Technology</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                    <span class="school">New York University</span>
+                  </div>
+        
+                  <div class="resume-item mb-4">
+                    <span class="date"><span class="icon-calendar"></span> March 2013 - Present Deacember.</span>
+                    <h3>Masteral in Information Technology</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                    <span class="school">New York University</span>
+                  </div>
+        
+                  <div class="resume-item mb-4">
+                    <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
+                    <h3>Masteral in Information Technology</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                    <span class="school">New York University</span>
+                  </div>
+        
+                  <div class="resume-item mb-4">
+                    <span class="date"><span class="icon-calendar"></span> March 2013 - Present Deacember.</span>
+                    <h3>Masteral in Information Technology</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                    <span class="school">New York University</span>
+                  </div>
+        
+                </div>
+                <div class="col-md-6">
+        
+        
+                  <h2 class="mb-5">Experience</h2>
+        
+                  <div class="resume-item mb-4">
+                    <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
+                    <h3>Lead Product Designer</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                    <span class="school">Github</span>
+                  </div>
+        
+                  <div class="resume-item mb-4">
+                    <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
+                    <h3>Lead Product Designer</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                    <span class="school">Facebook</span>
+                  </div>
+        
+                  <div class="resume-item mb-4">
+                    <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
+                    <h3>Lead Product Designer</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                    <span class="school">Twitter</span>
+                  </div>
+        
+                  <div class="resume-item mb-4">
+                    <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
+                    <h3>Lead Product Designer</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                    <span class="school">Shopify</span>
+                  </div>
+        
+        
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+    
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
-      const mountedApp = app.mount("#app");
+      const navbar = document.querySelector('nav');
+      window.onscroll = () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    };
     </script>
   </body>
 </html>
