@@ -67,7 +67,7 @@ projects.forEach(project => {
 
     const ankerTag = document.createElement('a');
     ankerTag.classList.toggle('stretched-link');
-    ankerTag.href = project.github;
+    ankerTag.href = project.gitHub;
     colDiv.appendChild(ankerTag);
 
 });
