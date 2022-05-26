@@ -8,7 +8,7 @@ window.Seed = (function () {
         image: "images/undraw_moodmedia.svg",
         gitHub: "https://github.com/Invoke-STPE/MoodMedia",
         livePreview: "https://www.google.com",
-        construction: false,
+        construction: false,        
       },
       {
         id: 2,
