@@ -415,3 +415,9 @@ li {
     color: #766dff;
     font-size: 20px;
 }
+
+
+/* Footer */
+.site-footer {
+    padding: 3em 0;
+}

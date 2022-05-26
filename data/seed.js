@@ -62,55 +62,38 @@ window.Seed = (function () {
       },
     ];
 
-    const timelineEvents = [
+    const experience = [
         {
-          id: 1,
-          year: "2011",
-          title: "landscape gardener",
+          year: "Apr 2022 - Present",
+          title: "Teacher Assistant",
           description:
-            "My first entry into adult life, while my gardening skills didn't exactly transfer towards my career change, I've still learned valuable life skills.",
-          skills: [
-            "Punctuality, meeting on time is important.",
-            "Responsibility, being accountable for your failures and successes. ",
-            "Provide service, and deliver a nice piece of work ",
-          ],
+            "Part-time work. was asked to  help out 1. semester students with their asp.net core assignments.",
+          location: "ZBC - Zealand Business College"
         },
         {
-          id: 2,
-          year: "2016",
-          title: "10th class VUC Vestegnen",
+          year: "Feb 2018 - Dec 2019",
+          title: "IT Support Student",
           description:
-            "My first entry into adult life, while my gardening skills didn't exactly transfer towards my career change, I've still learned valuable life skills.",
-          skills: [
-            "Punctuality, meeting on time is important.",
-            "Responsibility, being accountable for your failures and successes. ",
-            "Provide service, and deliver a nice piece of work ",
-          ],
+            "My work included in-house support, as well as good communication with customers.",
+          location: "KL - Kommunernes Landsforening"
+        },
+      ];
+      const education = [
+        {
+          year: "Sep 2020 - Present",
+          title: "Computer Science",
+          description:
+            "We have learned a lot of various subjects, C#, JavaScript, Internet Technologies, agile developement.",
+          location: "ZBC - Zealand Business College"
         },
         {
-          id: 3,
-          year: "2017",
-          title: "IT-Support Student at Kommunernes Landsforening (KL)",
+          year: "Aug 2017 - Dec 2019",
+          title: "IT Support Student",
           description:
-            "My job at Kommernes LandsForening was a first step into the IT field, this is where I first had a taste for scripting which would lead to towards software development.",
-          skills: [
-            "Punctuality, meeting on time is important.",
-            "Responsibility, being accountable for your failures and successes. ",
-            "Provide service, and deliver a nice piece of work ",
-          ],
-        },
-        {
-          id: 4,
-          year: "2020",
-          title: "Computer Science Student at Zealand Bussiness College.",
-          description: "Current level.",
-          skills: [
-            "Punctuality, meeting on time is important.",
-            "Responsibility, being accountable for your failures and successes. ",
-            "Provide service, and deliver a nice piece of work ",
-          ],
+            "Activities: Troubleshooting, Backup Technology, Mail Server, Networking (Cisco CCNA-Certificering), Computer Technology, Server Technology, Scripting, Wireless Network, Windows Deployment Service, Communication with Customers.",
+          location: "ZBC - Ringsted"
         },
       ];
   
-    return { projects: projects, timelineEvents: timelineEvents  };
+    return { projects: projects, experience: experience, education: education  };
   })();
