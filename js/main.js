@@ -2,7 +2,7 @@
 const navbar = document.querySelector('nav');
 const portfolioSection = document.getElementById('Portfolio');
 const educationSection = document.getElementById('Education');
-const experienceSection = document.getElementById('Experience');
+const experienceSection = document.getElementById('Experience');      
 
 
 // Get data
