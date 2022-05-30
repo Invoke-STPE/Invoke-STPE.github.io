@@ -4,7 +4,7 @@ window.Seed = (function () {
         id: 1,
         title: "MoodMedia",
         description:
-          "MoodMedia is a web application that is design to play music based on the weather",
+          "MoodMedia is a web application that is designed to play music based on the weather",
         image: "images/undraw_moodmedia.svg",
         gitHub: "https://github.com/Invoke-STPE/MoodMedia",
         livePreview: "https://www.google.com",
@@ -34,7 +34,7 @@ window.Seed = (function () {
         id: 4,
         title: "VideoTime",
         description:
-          "A personal project, create for IAmTimCorey Challenge, gets duration of videos in a folder.",
+          "A personal project, create for and IAmTimCorey challenge, gets duration of videos in a folder.",
         image: "images/undraw_under_construction.svg",
         gitHub: "https://github.com/Invoke-STPE/VideoTime",
         livePreview: "#",
@@ -54,7 +54,7 @@ window.Seed = (function () {
         id: 6,
         title: "ZealandDimselab",
         description:
-          "Group Project, created for 2. semester assigment, this is a refactored forked by me.",
+          "Group Project, created for 2. semester assigment, this is a refactored version forked by me.",
         image: "images/undraw_zealanddimselab.svg",
         gitHub: "https://github.com/Invoke-STPE/EmailSystem",
         livePreview: "#",
@@ -67,7 +67,7 @@ window.Seed = (function () {
           year: "Apr 2022 - Present",
           title: "Teacher Assistant",
           description:
-            "Part-time work. was asked to  help out 1. semester students with their asp.net core assignments.",
+            "Part-time work. Was asked to  help out 1. semester students with their asp.net core assignments.",
           location: "ZBC - Zealand Business College"
         },
         {
@@ -83,7 +83,7 @@ window.Seed = (function () {
           year: "Sep 2020 - Present",
           title: "Computer Science",
           description:
-            "We have learned a lot of various subjects, C#, JavaScript, Internet Technologies, agile developement.",
+            "we have learned a lot of various subjects, such as: C#, JavaScript, Internet Technologies, agile development.",
           location: "ZBC - Zealand Business College"
         },
         {
