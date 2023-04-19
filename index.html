@@ -13,7 +13,7 @@
     <title>Invoke-STPE's Portfolio</title>                                  
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
       <header>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
           <div class="container-fluid">
@@ -37,43 +37,55 @@
           </div>
         </nav>
       </header>
-      <div class="container-fluid">
+      <div class="container p-0 m-0">
         <div class="row vh-100">
           <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar d-flex flex-column">
             <div class="sidebar-sticky">
-              <ul class="nav flex-column nav-tabs mb-2">
+              <div class="dropdown mb-2 w-100">
+                <button class="btn btn-dark dropdown-toggle w-100" type="button" id="topicsMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-menu-button-fill me-2 link-li"></i>
+                  Notes
+                </button>
+                <ul class="dropdown-menu dropdown-menu-start dropdown-menu-end w-100 dropdown-menu-dark " aria-labelledby="topicsMenu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+            
+              <ul class="nav flex-column nav-tabs">
                 <li class="nav-item">
-                  <a class="nav-link link-light" href="#">
+                  <a class="nav-link" href="#">
                     <i class="bi bi-house-fill me-2"></i>
                     Dashboard
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-light" href="#">
+                  <a class="nav-link" href="#">
                     <i class="bi bi-person-fill me-2"></i>
                     Profile
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-light" href="#">
+                  <a class="nav-link" href="#">
                     <i class="bi bi-file-earmark-text-fill me-2"></i>
                     Reports
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-light" href="#">
+                  <a class="nav-link" href="#">
                     <i class="bi bi-gear-fill me-2"></i>
                     Settings
                   </a>
                 </li>
               </ul>
-              <hr class="border-light">
+              <hr class="border-light mt-auto">
               <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-dark dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="bi bi-info-circle-fill me-2"></i>
                   Help &amp; Support
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton">
                   <li><a class="dropdown-item" href="#">FAQ</a></li>
                   <li><a class="dropdown-item" href="#">Contact Us</a></li>
                   <li><a class="dropdown-item" href="#">Terms &amp; Conditions</a></li>
@@ -82,16 +94,12 @@
             </div>
           </nav>
       
-          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 px-0">
             <h1>My Dashboard</h1>
             <p>Welcome to my dashboard!</p>
           </main>
         </div>
       </div>
-      
-        
-        
-        
     </div>
     
   
