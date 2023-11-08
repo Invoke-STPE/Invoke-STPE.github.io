@@ -1,126 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->     
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">     
- 
-    <!-- Bootstrap CSS -->       
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/site.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Invoke-STPE's Portfolio</title>
+        <link rel="icon" href="favicon.svg" />
+        <link rel="stylesheet" href="css/site.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        />
+        <meta
+            name="description"
+            content="Passionate software developer Steven Pedersen (Invoke-STPE) excels in HTML, CSS, JS, and C#. Explore my portfolio for practical programming solutions."
+        />
+        <meta property="og:url" content="https://invoke-stpe.github.io/" />
+        <link rel="canonical" href="https://invoke-stpe.github.io/" />
+        <meta property="og:title" content="Explore Invoke-STPE's Portfolio" />
+        <meta
+            property="og:description"
+            content="Passionate software developer Steven Pedersen (Invoke-STPE) excels in HTML, CSS, JS, and C#. Explore my portfolio for practical programming solutions."
+        />
+        <meta property="og:site_name" content="Invoke-STPE" />
+        <!-- Need to figure out images for these: -->
+        <meta
+            property="og:image"
+            content="https://allyrenolds-steven-timcorey.azurewebsites.net/Ally.min.png"
+        />
+        <meta
+            property="og:image:alt"
+            content="Vibrant young girl with a cheerful smile, sporting multicolored hair, radiating positivity and confidence."
+        />
+        <meta
+            property="twitter:card"
+            content="https://allyrenolds-steven-timcorey.azurewebsites.net/Ally.min.png"
+        />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navbar">
+                    <i class="bi bi-code-slash"></i>
+                    <button id="contact-me" class="outlined" type="button">
+                        Contact Me
+                    </button>
+                </div>
+            </nav>
+        </header>
 
-    <title>Invoke-STPE's Portfolio</title>                                  
-  </head>
-  <body>
-      <header>
-        <nav class="navbar navbar-dark navbar-expand-lg site-navbar fixed-top bg-dark-my" id="pb-navbar">
-          <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-      
-      
-            <div class="collapse navbar-collapse justify-content-md-center" id="main-navigation">
-              <ul class="navbar-nav">        
-                <li class="nav-item"><a class="nav-link active" href="#section-home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <main>
-        <section class="home_banner_area" id="section-home">
-          <div class="container box_1620">
-            <div class="banner_inner d-flex align-items-center">
-              <div class="banner_content">
-                <div class="media">      
-                    <div class="d-flex">
-                      <img src="images/close-up.png" alt="">
+        <main>
+            <section id="my-hero">
+                <div class="hero">
+                    <h2>Invoke-STPE</h2>
+                    <h1>Software Developer & Freelancer</h1>
+                    <div class="content">
+                        <p>
+                            Hello, I'm Steven, a Full-Stack Developer &
+                            Freelancer.<br \ />
+                            I am someone who loves delving deep into the details
+                            of coding and enjoys tinkering with development.
+                            <br />
+                            I have a passion for exploring new concepts and
+                            solving problems through code. <br />On this
+                            website, you can explore my personal projects,
+                            freelancing service, and get in touch with me.
+                        </p>
+                        <img src="images/profile_pic.svg" alt="" srcset="" />
                     </div>
-                    <div class="media-body">
-                      <div class="personal_text">
-                        <h6>Welcome, I am </h6>        
-                        <h3>Steven Pedersen</h3>
-                        <h4>Computer science <span class="color-bold">Graduate</span> Jan. 2023</h4>
-                        <p>Soon to be Computer Science graduate, with experience in <span class="color-bold">C#</span> and <span class="color-bold">JavaScript</span> development.</p>
-                        <ul class="list basic_info">
-                          <li><a href="#"><i class="bi bi-telephone"></i> +45 53 61 95 30</a></li>
-                          <li><a href="#"><i class="bi bi-envelope"></i>StevenPedersen94@gmail.com</a></li>
-                          <li><a href="https://github.com/Invoke-STPE"><i class="bi bi-github"></i>GitHub</a></li>
-                          <li><a href="https://www.linkedin.com/in/steven-pedersen-664118202/"><i class="bi bi-linkedin"></i>Linkedin</a></li>
-                        </ul>
-                        <ul class="list personal_social">
-                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                      </div>
+                    <div class="button-group">
+                        <button type="button" class="primary">
+                            Hire Me for Freelance Work
+                        </button>
+                        <button type="button" class="outlined">
+                            View My Portfolio
+                        </button>
                     </div>
                 </div>
-              </div>
-       </div>
-     </div>
-         </div>
-        </section>
+            </section>
+        </main>
 
-        <section class="site-section p-120" id="section-portfolio">
-          <div class="container">
-            <div class="row">
-              <div class="section-heading text-center col-md-12">
-                <h2>Featured <strong class="color-bold">Portfolio</strong></h2>
-              </div>
-            </div> 
-            <div class="filters-content">
-              <div class="row" id="Portfolio">
-        
-              </div>
+        <footer>
+            <div class="social-media">
+                <ul>
+                    <li>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                </ul>
             </div>
-        </section>
-        <section>
-          <section class="site-section " id="section-resume">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 mb-5">
-                  <div class="section-heading text-center">
-                    <h2>My <strong class="color-bold">Resume</strong></h2>
-                  </div>
-                </div>
-                <div class="col-md-6" id="Education">
-                  <h2 class="mb-5">Education</h2>
-                 
-                </div>
-                <div class="col-md-6" id="Experience">
-                  <h2 class="mb-5">Experience</h2>
-                </div>
-              </div>
-            </div>
-          </section>
-        </section>
-      </main>
-      
-      <footer class="site-footer">
-        <div class="container">
-    
-          <div class="row mb-5">
-            <p class="col-12 text-center">
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              This template is made with <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p>
+                Site built by me, with a color scheme thievishly stolen from.
+                <a
+                    href="https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis"
+                    >Noctis</a
+                >
             </p>
-            <p class="col-12 text-center">
-              Thanks to <a href="https://undraw.co/">unDraw</a> for their images.     
-            </p>
-          </div>
-        </div>
-      </footer>
-    
-      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="data/seed.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+        </footer>
+    </body>
 </html>
