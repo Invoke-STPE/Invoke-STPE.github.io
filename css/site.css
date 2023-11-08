@@ -50,6 +50,11 @@ footer a {
     color: #fef8ec;
 }
 
+.button-group a {
+    text-decoration: none;
+    margin-left: 0.27rem;
+}
+
 .primary {
     border-radius: 9999px;
     border: 2px solid #f0954e;
