@@ -85,6 +85,7 @@ footer a {
 .content p {
     width: 70%;
     display: flex;
+    margin-top: 0;
 }
 
 .content img {
