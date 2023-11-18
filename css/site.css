@@ -1,99 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap');
 
 html {
-    font-family: 'Roboto', 'Courier New', 'monospace';
-    font-size: 36px;
-    background-color: #fef8ec;
-    color: #4aa2b9;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
-p {
-    color: #072124;
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
+a {
+    font-family: 'Inter', sans-serif;
 }
 
-h1 {
-    margin-top: 0;
-}
-
-h2 {
-    font-size: 1rem;
-    margin-bottom: 0;
+header {
+    background-color: #181e29;
 }
 
 footer {
-    margin-top: auto;
+    background-color: #f1f5f9;
 }
 
-footer a {
-    color: #0099ad;
+.lets-work:hover {
+    font-weight: bold;
 }
 
-.outlined {
-    border-radius: 9999px;
-    border: 2px solid #0099ad;
-    /* border: 2px solid #0099ad; */
-    font-size: 0.5rem;
-    padding: 0.3rem 0.8rem;
-    background-color: #fef8ec;
-    color: #0099ad;
-}
-
-.outlined:hover {
-    background-color: #0099ad;
-    color: #fef8ec;
-}
-
-.button-group a {
-    text-decoration: none;
-    margin-left: 0.27rem;
-}
-
-.primary {
-    border-radius: 9999px;
-    border: 2px solid #f0954e;
-    font-size: 0.5rem;
-    padding: 0.3rem 0.8rem;
-    background-color: #f0954e;
-    color: #fef8ec;
-}
-
-.primary:hover {
-    background-color: #fef8ec;
-    color: #f0954e;
-}
-
-#my-hero {
-    display: flex;
-    justify-content: center;
-}
 .hero {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-}
-.hero h2 {
-    align-self: self-start;
-    color: #e96933;
+    background-color: #181e29;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
-.content {
-    display: flex;
+.vh-85 {
+    height: 85vh;
 }
 
-.content p {
-    width: 70%;
-    display: flex;
-    margin-top: 0;
+.service-img {
+    width: 15%;
+    height: 15%;
 }
 
-.content img {
-    width: 250px;
-    height: 250px;
+.nav.nav-tabs .nav-item>button {
+    color: #212529;
+}
+
+.nav.nav-tabs .nav-item>button.nav-link.active {
+    color: #1b67e8;
+}
+
+.social-media a i {
+    color: #1b67e8;
+}
+.social-media a i:hover {
+    color: #1b66e8ad;
+}
+
+.footer-menu a {
+    color: black;
+}
+.footer-menu a:hover {
+    color: #1b66e8ad;
 }
