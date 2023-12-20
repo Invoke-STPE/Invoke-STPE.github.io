@@ -1,85 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap');
 
 html {
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
-a,
-button {
-  font-family: "Inter", sans-serif;
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
 }
 
-.navbar-brand img {
-  width: 80px;
-  height: 80px;
+a {
+    font-family: 'Inter', sans-serif;
 }
 
-:root {
-  --bs-primary: #18ab60; /* Your new primary color */
+header {
+    background-color: #181e29;
 }
 
-.btn-primary {
-  background-color: #18ab60;
-  color: black;
-  border-color: #18ab60;
-}
-.btn-primary:hover {
-  background-color: #18ab5fd8;
-  color: black;
-  border-color: #18ab5fd8;
-}
-.btn-secondary {
-  background-color: #fda304ff;
-  color: black;
-  border-color: #fda304ff;
+footer {
+    background-color: #f1f5f9;
 }
 
-.word-wrap {
-  color: #18ab60;
-}
-.word-wrap-yellow {
-  color: #fda304;
+.lets-work:hover {
+    font-weight: bold;
 }
 
-.bg-image {
-  background: url("/images/hero-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+.hero {
+    background-color: #181e29;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
-.list-group-checkable .list-group-item {
-  cursor: pointer;
-}
-.list-group-item-check {
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
-}
-.list-group-item:hover {
-  background-color: var(--bs-primary);
-  opacity: 0.6;
-  color: #fff;
-}
-/* .list-group-item-check:hover + .list-group-item {
-  background-color: var(--bs-primary);
-  opacity: 0.6;
-  color: #fff;
-} */
-.list-group-item.active{
-  color: #fff;
-  background-color: var(--bs-primary);
-  border-color: var(--bs-primary);
+.vh-85 {
+    height: 85vh;
 }
 
-a.see-more {
-  color: #7f7f7f;
-}
-a.see-more:hover {
-  color: var(--bs-primary);
+.service-img {
+    width: 15%;
+    height: 15%;
 }
 
-a.footer-nav:hover{
-  color: var(--bs-primary);
+.nav.nav-tabs .nav-item>button {
+    color: #212529;
+}
+
+.nav.nav-tabs .nav-item>button.nav-link.active {
+    color: #1b67e8;
+}
+
+.social-media a i {
+    color: #1b67e8;
+}
+.social-media a i:hover {
+    color: #1b66e8ad;
+}
+
+.footer-menu a {
+    color: black;
+}
+.footer-menu a:hover {
+    color: #1b66e8ad;
 }
