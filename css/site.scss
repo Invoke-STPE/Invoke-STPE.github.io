@@ -13,3 +13,18 @@ h1, h2, h3 {
 p, button, a {
     font-family: 'Archivo';
 }
+
+.btn-ghost-light {
+    color: #f7faff;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: #f7faff;
+    text-underline-offset: 0.2rem;
+}
+
+.btn-ghost-light:hover {
+    color: #f7faff;
+    background-color: rgba(247,250,255,.1);
+    border-color: transparent;
+    text-decoration: none;
+}
