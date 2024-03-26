@@ -1,4 +1,15 @@
 $primary: #0084ad;
-$secondary: #b06533;
+$secondary: #ffc107;
+$info : #ffc107;
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss'; 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&display=swap');
+@import '../animations/chevron-anim.scss';
+
+h1, h2, h3 {
+    font-family: 'Julius Sans One';  
+}
+
+p, button, a {
+    font-family: 'Archivo';
+}
