@@ -1,0 +1,14 @@
+{
+    "liveServer.settings.root": "/",
+    "css.styleSheets": [
+        "css/site.min.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    ],
+    "compile-hero": {
+        "scss-output-directory": ".",
+        "javascript-output-directory": "."
+    },
+    "tinypng.forceOverwrite": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "compile-hero.disable-compile-files-on-did-save-code": true,
+}
