@@ -13067,6 +13067,10 @@ textarea.form-control-lg {
     transform: translateY(4.8rem) scale(0.5);
   }
 }
+body {
+  background-color: #f1f2f4;
+}
+
 h1, .h1, h2, .h2, h3, .h3 {
   font-family: "Julius Sans One";
 }
@@ -13075,17 +13079,18 @@ p, button, a {
   font-family: "Archivo";
 }
 
+section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
 .btn-ghost-light {
-  color: #f7faff;
+  color: #212529;
   background-color: transparent;
-  text-decoration: underline;
-  text-decoration-color: #f7faff;
-  text-underline-offset: 0.2rem;
 }
 
 .btn-ghost-light:hover {
   color: #f7faff;
-  background-color: rgba(247, 250, 255, 0.1);
+  background-color: #212529;
   border-color: transparent;
-  text-decoration: none;
 }
