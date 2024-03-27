@@ -24,20 +24,25 @@ section {
     padding-bottom: 7.5rem;
 }
 
-.btn-ghost-light {
+.btn-ghost {
     color: #212529;
     background-color: transparent;
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+
 }
 
-.btn-ghost-light:hover {
-    color: #f7faff;
+.btn-ghost:hover {
+    color: #212529;
     // background-color: rgba(247,250,255,.1);
-    background-color: #212529;
+    background-color: #ffc107;
+    text-decoration: none;
     border-color: transparent; 
 }
 
-// .service-card {
-//     border: 1px solid #212529;
-//     border-top: 0;
-    
-// }
+.icon-link-hover {
+    color: #f7faff;
+}
+.icon-link-hover:hover {
+    color: #ffc107;
+}
