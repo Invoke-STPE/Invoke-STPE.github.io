@@ -13084,6 +13084,10 @@ section {
   padding-bottom: 7.5rem;
 }
 
+img {
+  border-radius: 50%;
+}
+
 .btn-ghost {
   color: #212529;
   background-color: transparent;
@@ -13104,4 +13108,25 @@ section {
 
 .icon-link-hover:hover {
   color: #ffc107;
+}
+
+.price-list {
+  list-style: none;
+}
+
+.price-list li:before {
+  font-family: "Bootstrap-icons";
+  content: "";
+  color: green;
+}
+
+@media (min-width: 992px) {
+  .mx-lg-auto {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .w-lg-75 {
+    width: 75%;
+  }
 }
