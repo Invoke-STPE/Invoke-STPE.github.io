@@ -11,11 +11,12 @@ Build a portfolio website, where I can showcase my projects, experience, skills,
 
 ## O – Open Up the Requirements
 
-**Q**: Is the portfolio website server-side?
+**Q**: Is the portfolio website server-side? </br>
 **A**: No, it is fully client-side.
 
-**Q**: How will we call APIs without a backend?
+**Q**: How will we call APIs without a backend? </br>
 **A**: Using GitHub Actions (or similar) to fetch data and generate a JSON file for the frontend.
+
 
 ## U - User Interface 
 As I am not a designer, I chose to bully WebStudio's inception AI into building a layout I liked.
